@@ -1,0 +1,52 @@
+*{
+  background-color: #f0f8ff;
+}
+
+ul > li{
+  color:rgb(70, 64, 64);
+}
+
+#personalImage{
+  height: 100px;
+  width: 56px;
+}
+
+#gitHub{
+  border: 1px solid black;
+  background-color: #696d7d;
+  color: black;
+  padding: 5px;
+  margin: 1px;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+#gitHub:hover{
+  box-shadow: 10px 10px 5px #3C153B;
+}
+
+#linkedIn{
+  border: 1px solid black;
+  background-color: #696d7d;
+  color: black;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+#linkedIn:hover{
+  box-shadow: 10px 10px 5px #3C153B;
+}
+
+a[href]{
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a[href]:visited{
+  background-color: transparent;
+  text-decoration: none;
+}

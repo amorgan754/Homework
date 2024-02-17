@@ -21,6 +21,9 @@ if (numberOfToppings >= 10) {
 // loop to print all even numbers from 1 to numberOfTopings
 let x = 1;
 while (x <= numberOfToppings) {
+  if (x == 1) {
+    console.log(x);
+  }
   if (x % 2 == 0) {
     console.log(x);
   }
